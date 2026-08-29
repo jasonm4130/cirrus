@@ -1,0 +1,11 @@
+{
+  "name": "@jasonm4130/cirrus",
+  "version": "0.1.0",
+  "description": "A terminal-register theme for Cloudflare Nimbus docs sites.",
+  "license": "MIT",
+  "type": "module",
+  "files": ["globals.css"],
+  "exports": { "./globals.css": "./globals.css" },
+  "peerDependencies": { "@cloudflare/nimbus-docs": ">=0.11.0 <0.12.0" },
+  "repository": { "type": "git", "url": "git+https://github.com/jasonm4130/cirrus.git" }
+}
