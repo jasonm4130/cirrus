@@ -34,8 +34,11 @@ than the register itself.
 ## Install
 
 ```sh
-npm i @jasonm4130/cirrus
+npm i github:jasonm4130/cirrus
 ```
+
+The repo is private and not on the public registry, so install it from GitHub rather than
+by bare package name — that resolves through your existing git credentials.
 
 Then replace the body of your scaffolded `src/styles/globals.css` with:
 
